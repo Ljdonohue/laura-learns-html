@@ -35,4 +35,4 @@ jobs:
         username: ${{ secrets.USERNAME }}
         password: ${{ secrets.PASSWORD }}
         source: "html/*"
-        target: "/var/www/html"
+        target: "/var/www"
