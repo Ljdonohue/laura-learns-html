@@ -21,15 +21,15 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    - name: SCP Files
-      uses: appleboy/scp-action@v0.0.1
-      env:
-        HOST: ${{ secrets.HOST }}
-        USERNAME: ${{ secrets.USERNAME }}
-        PORT: 22
-        PASSWORD: ${{ secrets.PASSWORD }}
-        SOURCE: html
-        TARGET: /var/www/html
+    - name: SCP Command to Transfer Files
+      uses: appleboy/scp-action@v0.0.7
+#       env:
+#         HOST: ${{ secrets.HOST }}
+#         USERNAME: ${{ secrets.USERNAME }}
+#         PORT: 22
+#         PASSWORD: ${{ secrets.PASSWORD }}
+#         SOURCE: html
+#         TARGET: /var/www/html
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
