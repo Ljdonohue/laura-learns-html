@@ -28,6 +28,8 @@ jobs:
         USERNAME: ${{ secrets.USERNAME }}
         PORT: 22
         PASSWORD: ${{ secrets.PASSWORD }}
+        SOURCE: html
+        TARGET: /var/www/html
       with:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
