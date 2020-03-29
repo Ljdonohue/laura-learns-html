@@ -4,3 +4,9 @@
 p {
     background: pink;
 }
+.hotdog p.mustard {
+    background: yellow;
+}
+.hotdog p {
+    background:brown;
+}
