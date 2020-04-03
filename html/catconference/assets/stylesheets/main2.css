@@ -1,12 +1,15 @@
-#Venue {
-    background: green;
-}
-p {
+#cat-conference {
     background: pink;
 }
-.hotdog p.mustard {
-    background: yellow;
+#speakers {
+    background: red
 }
-.hotdog p {
-    background:brown;
+#schedule {
+    background: lightseagreen
+}
+#venue {
+    background: green;
+}
+.content p {
+    background: lightskyblue
 }
