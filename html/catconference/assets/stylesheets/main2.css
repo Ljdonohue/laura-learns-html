@@ -4,25 +4,35 @@
     height: 2000px;
     background-color: rgba(252, 207, 255)
 }
+
 .page {
     width: 50%;
 }
+.title {
+    display: block;
+    border: 6px solid #949599;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    width: 400px;
+}
 p {
     font-size: 16px;
-}
+    }
+
 .cat-conference {
     background: pink;
 }
-#tagline {
+.tagline {
     background: pink;
 }
-#speakers {
+.speakers {
     background: red
 }
-#schedule {
+.schedule {
     background: lightseagreen
 }
-#venue {
+.venue {
     background: green;
 }
 .btn {
