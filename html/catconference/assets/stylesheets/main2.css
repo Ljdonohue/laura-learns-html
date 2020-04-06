@@ -4,8 +4,11 @@
     height: 2000px;
     background-color: rgba(252, 207, 255)
 }
+.page {
+    width: 50%;
+}
 p {
-    font-size: 14px;
+    font-size: 16px;
 }
 .cat-conference {
     background: pink;
