@@ -1,5 +1,13 @@
-
-#cat-conference {
+.background {
+    margin: auto 10px;
+    width: auto;
+    height: 2000px;
+    background-color: rgba(252, 207, 255)
+}
+p {
+    font-size: 14px;
+}
+.cat-conference {
     background: pink;
 }
 #tagline {
@@ -13,12 +21,6 @@
 }
 #venue {
     background: green;
-}
-.content p{
-    background: lightskyblue
-    }
-.content p{
-    font-size: 14px
 }
 .btn {
     font-size: 16x;
