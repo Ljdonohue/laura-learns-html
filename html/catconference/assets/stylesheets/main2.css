@@ -10,7 +10,7 @@
 }
 .title {
     display: block;
-    border: 6px solid #949599;
+    border: 6px solid ;
     height: auto;
     margin: 10px;
     padding: auto;
@@ -21,26 +21,26 @@ p {
     }
 
 .cat-conference {
-    background: pink;
+    background:  rgba(246, 150, 255, 0.507);
 }
 .tagline {
-    background: pink;
+    background:  rgba(246, 150, 255, 0.507);
 }
 .speakers {
-    background: red
+    background: rgba(255, 0, 0, 0.507);
 }
 .schedule {
-    background: lightseagreen
+    background: rgba(0, 217, 255, 0.507);
 }
 .venue {
-    background: green;
+    background: rgba(9, 182, 9, 0.507);
 }
 .btn {
     font-size: 16x;
 }
 .btn-registernow {
-    background: red;
+    background: rgba(255, 0, 0, 0.705);
 }
 .btn-speakers {
-    background: rgba(255, 0, 0, 0.507)
+    background: rgba(255, 0, 0, 0.507);
 }
