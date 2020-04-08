@@ -11,7 +11,7 @@
     margin: 10px;
     padding: auto;
     width: 200px;
-}
+  }
 .butan {
     margin: 5px;
     padding: 2px;
@@ -22,11 +22,11 @@
 p {
     font-size: 16px;
     border: 6px solid;
-    height: 100px;
+    height: auto;
     margin: 20px;
-    padding: 20px;
-    width: 400px;
-    margin: 100px 200px 0 150px;
+    padding: 10px;
+    width: 500px;
+    margin-bottom: 10px;
     }
 .cat-conference {
     background:  rgba(246, 150, 255, 0.507);
