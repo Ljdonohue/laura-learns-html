@@ -1,9 +1,8 @@
 .background {
       background-color: rgba(252, 207, 255)
+      
 }
-.page {
-    width: 100%;
-}
+
 .title {
     display: block;
     border: 6px dotted;
@@ -21,13 +20,8 @@
 }
 p {
     font-size: 16px;
-    border: 6px solid;
-    height: auto;
-    margin: 20px;
-    padding: 10px;
-    width: 500px;
-    margin-bottom: 10px;
-    }
+    margin: 10px;
+          }
 .cat-conference {
     background:  rgba(246, 150, 255, 0.507);
 }
@@ -39,6 +33,9 @@ p {
 }
 .schedule {
     background: rgba(0, 217, 255, 0.507);
+}
+.about {
+    background: rgba(255, 0, 191, 0.507);
 }
 .venue {
     background: rgba(9, 182, 9, 0.507);
