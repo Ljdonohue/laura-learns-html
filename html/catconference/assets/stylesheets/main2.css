@@ -37,6 +37,9 @@ p {
 .about {
     background: rgba(255, 0, 191, 0.507);
 }
+.venue {
+    background: rgba(9, 182, 9, 0.507);
+}
 .aboutimage {
     width:450px;
     height:320px;
@@ -62,6 +65,3 @@ Grid
     border: 6px solid;
     height: auto;
 }
-.venue {
-    background: rgba(9, 182, 9, 0.507);
-    
