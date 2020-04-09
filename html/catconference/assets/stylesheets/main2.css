@@ -1,5 +1,5 @@
 .background {
-      background-color: rgba(252, 207, 255)
+      background-color: rgb(255, 255, 255)
       
 }
 
@@ -36,6 +36,31 @@ p {
 }
 .about {
     background: rgba(255, 0, 191, 0.507);
+}
+.aboutimage {
+    width:450px;
+    height:320px;
+}
+/*
+=================================
+Grid
+=================================
+*/
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.maintitle {
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+    display: block;
+    border: 6px solid;
+    height: auto;
 }
 .venue {
     background: rgba(9, 182, 9, 0.507);
