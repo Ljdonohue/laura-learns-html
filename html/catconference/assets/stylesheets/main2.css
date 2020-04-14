@@ -1,7 +1,6 @@
 .background {
       background-color: rgb(255, 255, 255)
-      
-}
+      }
 
 .title {
     display: block;
@@ -11,21 +10,40 @@
     padding-left: 30px;
     padding-right: 30px;
     width: 960px;
+    margin-bottom: 15px;
           }
-  }
+  .smallheader {
+    height: auto;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+    margin-bottom: 15px;
+    }
+
 .butan {
     margin: 5px;
     padding: 2px;
     border-radius: 2px;
     border: solid rgba(37, 11, 3, 0.507) 1px;
     background: rgba(227, 215, 211, 0.507);
-}
-p {
+    }
+.nav {
     font-size: 16px;
+    height: auto;
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
     width: 960px;
+}
+p {
+    font-size: 16px;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+    margin-bottom: 15px;
           }
 .cat-conference {
     background:  rgba(246, 150, 255, 0.507);
@@ -35,7 +53,12 @@ p {
 }
 .speakers {
     background: rgba(255, 0, 0, 0.507);
-}
+    height: auto;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 960px;
+          }
 .schedule {
     background: rgba(0, 217, 255, 0.507);
 }
