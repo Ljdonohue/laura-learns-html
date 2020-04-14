@@ -1,7 +1,6 @@
 .background {
       background-color: rgb(255, 255, 255)
       }
-
 .title {
     display: block;
     border: 6px dotted;
@@ -38,6 +37,7 @@
 }
 p {
     font-size: 16px;
+    margin-bottom: 15px;
     height: auto;
     margin: 0 auto;
     padding-left: 30px;
@@ -53,12 +53,7 @@ p {
 }
 .speakers {
     background: rgba(255, 0, 0, 0.507);
-    height: auto;
-    margin: 0 auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    width: 960px;
-          }
+             }
 .schedule {
     background: rgba(0, 217, 255, 0.507);
 }
@@ -71,6 +66,12 @@ p {
 .aboutimage {
     width:450px;
     height:320px;
+}
+img {
+    float: left;
+}
+aside {
+    float: left;
 }
 /*
 =================================
@@ -88,8 +89,18 @@ Grid
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
-    width: 960px;
+    width: 500px;
     display: block;
     border: 6px solid;
     height: auto;
+    margin-bottom: 15px;
+}
+.pagedirectory {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 200px;
+    display: block;
+    border: 6px solid;
+    height: auto;
+    margin-bottom: 15px;
 }
