@@ -1,3 +1,4 @@
+
 .background {
       background-color: rgb(255, 255, 255)
       }
@@ -8,9 +9,10 @@
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
-    width: 960px;
+    width: 400px;
     margin-bottom: 15px;
-          }
+    font-family: 'Spartan', sans-serif;          
+}
   .smallheader {
     height: auto;
     margin: 0 auto;
@@ -18,7 +20,8 @@
     padding-right: 30px;
     width: 960px;
     margin-bottom: 15px;
-    }
+    font-family: 'Spartan', sans-serif;    
+}
 
 .butan {
     margin: 5px;
@@ -34,9 +37,11 @@
     padding-left: 30px;
     padding-right: 30px;
     width: 960px;
+    font-family: 'Rokkitt', serif;
 }
 p {
     font-size: 16px;
+    font-family: 'Rokkitt', serif;
     margin-bottom: 15px;
     height: auto;
     margin: 0 auto;
@@ -44,12 +49,14 @@ p {
     padding-right: 30px;
     width: 960px;
     margin-bottom: 15px;
-          }
+              }
 .cat-conference {
     background:  rgba(246, 150, 255, 0.507);
+    font-family: 'Spartan', sans-serif;
 }
 .tagline {
     background:  rgba(246, 150, 255, 0.507);
+    font-family: 'Spartan', sans-serif;
 }
 .speakers {
     background: rgba(255, 0, 0, 0.507);
@@ -72,8 +79,8 @@ img {
 }
 aside {
     float: left;
+    width: 450px
 }
-
 /*
 =================================
 Grid
