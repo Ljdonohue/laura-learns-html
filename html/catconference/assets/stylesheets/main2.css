@@ -29,9 +29,10 @@
     border-radius: 2px;
     border: solid rgba(37, 11, 3, 0.507) 1px;
     background: rgba(227, 215, 211, 0.507);
+    height: 22px line-height: 22px;
     }
 .nav {
-    font-size: 16px;
+    font-size: 50px;
     height: auto;
     margin: 0 auto;
     padding-left: 30px;
@@ -40,7 +41,7 @@
     font-family: 'Rokkitt', serif;
 }
 p {
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Rokkitt', serif;
     margin-bottom: 15px;
     height: auto;
@@ -104,6 +105,8 @@ Grid
     margin-bottom: 15px;
 }
 .pagedirectory {
+    font-size: 20px;
+    font-family: 'Rokkitt', serif;
     padding-left: 30px;
     padding-right: 30px;
     width: 200px;
