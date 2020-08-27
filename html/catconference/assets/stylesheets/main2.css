@@ -82,6 +82,9 @@ aside {
     float: left;
     width: 450px
 }
+article > p {
+color: blue;
+}
 /*
 =================================
 Grid
