@@ -1,4 +1,4 @@
-section > article {
+article p {
     color: blue;
     font-size: 50px;
 }
@@ -84,11 +84,6 @@ img {
 aside {
     float: left;
     width: 450px
-}
-
-section > article {
-    color: blue;
-    font-size: 50px;
 }
 
 /*
