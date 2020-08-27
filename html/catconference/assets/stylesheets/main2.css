@@ -1,4 +1,7 @@
 
+article > p {
+    color: blue;
+    }
 .background {
       background-color: rgb(255, 255, 255)
       }
@@ -82,9 +85,7 @@ aside {
     float: left;
     width: 450px
 }
-article > p {
-color: blue;
-}
+
 /*
 =================================
 Grid
