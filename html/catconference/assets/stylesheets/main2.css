@@ -8,7 +8,7 @@ article li {
 .title {
     display: block;
     border: 6px dotted;
-    height: auto;`
+    height: auto;
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -32,7 +32,8 @@ article li {
     border-radius: 2px;
     border: solid rgba(37, 11, 3, 0.507) 1px;
     background: rgba(227, 215, 211, 0.507);
-    height: 22px line-height: 22px;
+    height: 22px; 
+    line-height: 22px;
     }
 .nav {
     font-size: 50px;
