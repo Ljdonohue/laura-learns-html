@@ -1,14 +1,11 @@
 
-article > p {
-    color: blue;
-    }
 .background {
       background-color: rgb(255, 255, 255)
       }
 .title {
     display: block;
     border: 6px dotted;
-    height: auto;
+    height: auto;`
     margin: 0 auto;
     padding-left: 30px;
     padding-right: 30px;
@@ -84,6 +81,11 @@ img {
 aside {
     float: left;
     width: 450px
+}
+
+section > article {
+    color: blue;
+    font-size: 50px;
 }
 
 /*
